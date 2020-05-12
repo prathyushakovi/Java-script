@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>java script output</h2>
+	<p id="demo"></p>
+	<script >
+		alert("my message here");
+		
+		prompt("enter your name:");
+		document.write("time to learn java script");
+	    document.getElementById("demo").innerHTML="hello";
+	    console.log("leave a secret meassage");
+	    </script>
+</body>
+</html>
