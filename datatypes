@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h2>java script data types</h2>
+		<script>
+			var x=45.5;   //number
+			var y=34;
+			document.write(x);
+			var name='raju'; //string
+			document.write(name);
+			var ravi=false  //boolean
+			document.write(ravi);
+			var z=x+y;   //regular expression
+			document.write(z);
+		    document.write(typeof(name));
+		</script>
+	</body>
+</html>
