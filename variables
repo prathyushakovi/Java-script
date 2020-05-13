@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<h2>java script variables</h2>
+	<p id="demo"></p>
+	<script >
+		var a=5;   //global variable//
+		function display()
+		{
+			document.write("the value of a is" +a);
+		}
+		display(); 
+
+	  function mul()
+		{
+			var x=10;    //local variable//
+			var y=20;
+			var z=x*y;
+			document.write(z);
+		}
+		mul();
+		
+	</script>
+</body>
+</html>
