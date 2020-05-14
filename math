@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h2>java script math </h2>
+		<script>
+			var x=4;
+			var y=-9;
+			var a=3.098;
+			document.write(Math.sqrt(x));
+			document.write(Math.random()); //0 to 1
+			document.write(Math.pow(2,3));
+			document.write(Math.abs(y));
+			document.write(Math.floor(a));
+			document.write(Math.ceil(a));
+			document.write(Math.round(a));
+
+
+		</script>
+	</body>
+</html>
