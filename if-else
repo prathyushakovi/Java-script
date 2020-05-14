@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h2>java script if else condition</h2>
+		<script>
+			var x=10;
+			var y=5;
+			var z=4;
+			 if(x>y && x>z)
+			 {
+			 	document.write("x is largest");
+			 }
+			 else if(y>x && y>z) {
+			 	document.write("y is largest");
+			 }
+			 else {
+			 	document.write("z is largest");
+			 } 
+		</script>
+	</body>
+</html>
