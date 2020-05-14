@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h2>java script strings</h2>
+		<script>
+			var x =new String("hello");
+			document.write(x.slice(2,5));
+			document.write(x.toUpperCase());
+			document.write(x.indexOf("hello"));
+
+		</script>
+	</body>
+</html>
