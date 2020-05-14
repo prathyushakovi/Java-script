@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<h2>java script arrays</h2>
+	<script>
+		var x =[30,40,50];
+		for (i=0;i<x.length;i++)
+		{
+			document.write(x[i]  + "<br>");
+		}
+		
+		
+		var students = new Array();
+		students[0]="prathyu";
+		students[1]="avi";
+		students[2]="manoj";
+		students[3]="mounika";
+		for(i=0; i<students.length;i++) {
+			document.write(students[i] + "<br/>");
+		}
+		var emp =new Array(30,40,50);
+		for(i=0;i<emp.length;i++)
+		{
+			document.write(emp[i] + "<br>");
+		}
+		
+	</script>
+</body>
+</html>
