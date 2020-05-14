@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h2>java script date and time</h2>
+		<p id="demo"></p>
+		<script>
+			function getTime() {
+			var today=new Date();
+			var hour=today.getHours();
+			var min=today.getMinutes();
+			var sec=today.getSeconds();
+			document.getElementById("demo").innerHTML=hour + ":" + min + ":" + sec;
+			setInterval("getTime()", 1000);
+			}
+			getTime();
+		</script>
+	</body>
+</html>
