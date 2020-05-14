@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h2>java script objects</h2>
+		<script>
+		
+			function student(rno,name,branch ) {
+               this.rno=rno;
+               this.name=name;
+               this.branch=branch;
+			}
+			var stu1=new student(20,"raju","cse");
+			document.write(stu1.rno + "" + stu1.name + "" +stu1.branch);
+		
+
+		</script>
+	</body>
+</html>
