@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+     <head></head>
+     <body>
+          <h1>form validation in java script</h1>
+          <form action="strings.html" name="myform" onsubmit=" return validname()">
+               name:
+               <input type="text" name="name1" pattern="[a-zA-Z ]{9}"> <br>
+               <button>submit</button>
+               <script>
+               function validname() {
+                    var name =document.myform.name1.value;
+                    
+                    if(name==null || name=="") {
+                         alert("name must contain characters");
+                         return false;
+                    }
+                    
+               }
+               </script>
+          </form>
+     </body>
+</html>
