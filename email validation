@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+     <head></head>
+     <body>
+          <h1>form validation in java script</h1>
+          <form action="strings.html" name="myform" onsubmit=" return validmail()">
+          email:
+               <input type="email" name="mail1"> <br>
+               <button>submit</button>
+               <script>
+                function validmail() {
+                  var mail=document.myform.mail1.value;
+                  var atposition=mail.indexOf("@");
+                  var dotposition=mail.lastIndexOf(".");
+                  if(atposition<1 || dotposition<atposition+2 || dotposition+2>mail.length) {
+                    alert("please eneter a valid mai");
+                    return false;
+                  }
+
+                }
+               </script>
+          </form>
+     </body>
+</html>
