@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+     <head></head>
+     <body>
+          <h1>form validation in java script</h1>
+          <form action="strings.html" name="myform" onsubmit=" return validdate()">
+               dob:
+               <input type="date" name="date1" required=""> <br>
+               <button>submit</button>
+               <script>
+                    function validdate() {
+                         var curdate=new Date();
+                         var dob=new Date(document.myform.date1.value);
+                         if(dob>curdate) {
+                              alert("enter correct");
+                              return false;
+                         }
+                          }
+
+              </script>
+          </form>
+     </body>
+</html>
